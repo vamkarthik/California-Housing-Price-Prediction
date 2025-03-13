@@ -57,7 +57,7 @@ export default function PricePrediction() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch("http://localhost:5500/predict", {
+      const response = await fetch("https://california-housing-price-prediction-04in.onrender.com/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(features),
