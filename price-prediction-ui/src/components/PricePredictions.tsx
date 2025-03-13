@@ -10,10 +10,10 @@ export default function PricePrediction() {
   const [features, setFeatures] = useState({
     MedInc: 3.5348,
     HouseAge: 29.0,
-    AveRooms: 5.428,
-    AveBedrms: 1.1,
+    AveRooms: 5,
+    AveBedrms: 1,
     Population: 1425.0,
-    AveOccup: 3.07,
+    AveOccup: 3,
     Latitude: 35.63,
     Longitude: -119.57,
   });
